@@ -1,0 +1,29 @@
+        .header {
+            padding: 12px 45px;
+            background-color: #0B5ED7;
+            color: #FFF;
+            align-items: center;
+            flex-wrap: wrap;
+            text-align: center;
+        }
+        .hero {
+            background-color: #c5cae9;
+            padding: 60px 45px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .features-inner {
+            max-width: 1300px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            grid-column-gap: 5px;
+            grid-row-gap: 5px;
+        }
+        .footer {
+            text-align: center;
+            padding: 20px 0;
+            color: #999;
+            font-size: .9rem;
+        }
